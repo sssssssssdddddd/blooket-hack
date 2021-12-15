@@ -10,11 +10,11 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
             }
         }),
         price = ({
-            blizzard: 25,
+            blizzard: 0,
             spooky: 25,
             aquatic: 25,
             bot: 20,
-            space: 20,
+            space:  0,
             breakfast: 15,
             medieval: 15,
             wonderland: 20
@@ -137,7 +137,7 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
                 Snowman: 75,
                 "Santa Claus": 200,
                 "Frost Wreath": 300,
-                "Tropical Globe": 300
+                "Tropical Globe": 50000000
 
             });
 
